@@ -1,0 +1,27 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: library_development
+  username: rubyuser
+  password: happy618
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: library_test
+  username: rubyuser
+  password: happy618
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: library_production
+  username: rubyuser
+  password: happy618
